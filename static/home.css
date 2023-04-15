@@ -1,0 +1,539 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-frame {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(38, 34, 34, 1);
+}
+.home-rect {
+  top: 0px;
+  left: 0px;
+  width: 3200px;
+  height: 196px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-content {
+  top: 70px;
+  left: 0px;
+  right: 0px;
+  width: 1350px;
+  height: 909px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-header {
+  top: 0px;
+  left: 0px;
+  width: 830.3999938964844px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-header-text {
+  top: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  height: auto;
+  position: absolute;
+  font-size: 46px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.home-header-image {
+  top: 3px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-title {
+  top: 187px;
+  left: 494px;
+  width: 362px;
+  height: 77px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-title-text {
+  top: 0px;
+  left: 0px;
+  color: rgba(238, 167, 85, 1);
+  width: 362px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-title-tagline {
+  left: 86px;
+  color: rgba(238, 167, 85, 1);
+  width: 189px;
+  bottom: 0px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-grid {
+  top: 306px;
+  left: 0px;
+  width: 1350px;
+  height: 603px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-games {
+  top: 169px;
+  left: 0px;
+  width: 474px;
+  height: 434px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-games-header {
+  top: 6px;
+  left: 6px;
+  width: 462px;
+  height: 130px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-games-header-text {
+  top: 41px;
+  left: 39px;
+  color: rgba(238, 167, 85, 1);
+  width: 385px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-games-header-rect {
+  top: 0px;
+  left: 0px;
+  width: 462px;
+  height: 130px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-games-hl {
+  top: 140px;
+  left: 6px;
+  width: 226px;
+  height: 288px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-games-hl-rect {
+  top: 0px;
+  left: 0px;
+  width: 226px;
+  height: 288px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-games-hl-image {
+  top: 2px;
+  left: 3px;
+  width: 220px;
+  height: 284px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-games-gta {
+  top: 140px;
+  left: 235px;
+  width: 233px;
+  height: 288px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-games-gta-rect {
+  top: 0px;
+  left: 0px;
+  width: 233px;
+  height: 288px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-games-gta-image {
+  top: 2px;
+  left: 2px;
+  width: 229px;
+  height: 284px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-games-rect {
+  top: 0px;
+  left: 0px;
+  width: 474px;
+  height: 434px;
+  position: absolute;
+  border-color: rgba(237, 117, 24, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-specs {
+  top: 0px;
+  right: 0px;
+  width: 323px;
+  height: 603px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-specs-header {
+  top: 6px;
+  left: 6px;
+  width: 311px;
+  height: 103px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-specs-header-text {
+  top: 25px;
+  left: 23px;
+  color: rgba(238, 167, 85, 1);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-spects-header-rect {
+  top: 0px;
+  left: 0px;
+  width: 311px;
+  height: 103px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-specs-tagline {
+  top: 113px;
+  left: 6px;
+  width: 311px;
+  height: 103px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-specs-tagline-text {
+  top: 18px;
+  left: 23px;
+  color: rgba(238, 167, 85, 1);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-specs-tagline-rect {
+  top: 0px;
+  left: 0px;
+  width: 311px;
+  height: 103px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-specs-table {
+  top: 220px;
+  left: 6px;
+  width: 311px;
+  height: 377px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-specs-table-text {
+  top: 34px;
+  left: 23px;
+  color: rgba(237, 117, 24, 1);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text-body {
+  color: rgba(237, 117, 24, 1);
+  font-weight: 700;
+}
+.home-text10 {
+  color: rgba(238, 167, 85, 1);
+  font-weight: 400;
+}
+.home-text18 {
+  color: rgba(237, 117, 24, 1);
+  font-weight: 700;
+}
+.home-text22 {
+  color: rgba(238, 167, 85, 1);
+  font-weight: 400;
+}
+.home-text30 {
+  color: rgba(237, 117, 24, 1);
+  font-weight: 700;
+}
+.home-text34 {
+  color: rgba(238, 167, 85, 1);
+  font-weight: 400;
+}
+.home-text40 {
+  color: rgba(237, 117, 24, 1);
+  font-weight: 700;
+}
+.home-specs-table-rect {
+  top: 0px;
+  left: 0px;
+  width: 311px;
+  height: 377px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-specs-rect {
+  top: 0px;
+  left: 0px;
+  width: 323px;
+  height: 603px;
+  position: absolute;
+  border-color: rgba(237, 117, 24, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-description {
+  top: 0px;
+  left: 0px;
+  width: 474px;
+  height: 149px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-description-text {
+  top: 52px;
+  left: 45px;
+  color: rgba(238, 167, 85, 1);
+  width: 385px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-description-rect {
+  top: 0px;
+  left: 0px;
+  width: 474px;
+  height: 149px;
+  position: absolute;
+  border-color: rgba(237, 117, 24, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-console {
+  top: 0px;
+  left: 494px;
+  width: 513px;
+  height: 603px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-console-back {
+  top: 6px;
+  left: 6px;
+  width: 269px;
+  height: 299px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-console-back-rect {
+  top: 0px;
+  left: 0px;
+  width: 269px;
+  height: 299px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-console-back-image {
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  height: 299px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-console-front {
+  top: 305px;
+  left: 0px;
+  width: 513px;
+  height: 298px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-console-front-rect {
+  top: 4px;
+  left: 6px;
+  width: 501px;
+  height: 288px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-console-front-image {
+  top: 0px;
+  left: 0px;
+  width: 513px;
+  height: 298px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-console-controller {
+  top: 0px;
+  left: 275px;
+  width: 238px;
+  height: 309px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-console-controller-rect {
+  top: 6px;
+  left: 4px;
+  width: 228px;
+  height: 299px;
+  position: absolute;
+  border-color: rgba(114, 99, 95, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.home-console-controller-image {
+  top: 0px;
+  left: 0px;
+  width: 238px;
+  height: 309px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-console-rect {
+  top: 0px;
+  left: 0px;
+  width: 513px;
+  height: 603px;
+  position: absolute;
+  border-color: rgba(237, 117, 24, 1);
+  border-style: solid;
+  border-width: 2px;
+}

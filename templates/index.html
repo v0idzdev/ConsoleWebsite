@@ -1,53 +1,262 @@
-<div
-      style="
-        width: '100%';
-        min-height: '100vh';
-        overflow: 'auto';
-        display: 'flex';
-        flex-direction: 'column';
-        align-items: 'center';
-      "
-    >
-      <div
-        style="
-          background-color: 'rgba(38, 34, 34, 1)';
-          width: '100%';
-          height: '1024px';
-          display: 'flex';
-          align-items: 'flex-start';
-          flex-shrink: '0';
-          border-color: 'transparent';
-          position: 'relative';
-          overflow: 'hidden';
-          "
-      >
-        <img
-          src="/playground_assets/rectangle114-udlb-3200w.png"
-          alt="Rectangle114"
-          style="
-            width: '3200px';
-            height: '196px';
-            border-color: 'transparent';
-            position: 'absolute';
-            top: '0px';
-            left: '0px';
-            "
-        />
-        <div
-          style="
-            position: 'absolute';
-            left: '0px';
-            top: '70px';
-            width: '1350px';
-            height: '909px';
-            display: 'flex';
-            align-items: 'flex-start';
-            margin: 'auto';
-            right: '0px';
-            "
-        >
-          <Component1 rootClassName="rootClassName"></Component1>
-          <Component rootClassName="rootClassName"></Component>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GameMaster™ X570</title>
+    <meta property="og:title" content="GameMaster™ X570" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      
+      body {
+        margin: 0;
+      }* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="/static/home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-frame">
+          <img
+            src="/static/rect.png"
+            alt="Rectangle114"
+            class="home-rect"
+          />
+          <div class="home-content">
+            <div class="home-header">
+              <span class="home-header-text"><span>Business Corp</span></span>
+              <img
+                src="/static/logo.png"
+                alt="logo118"
+                class="home-header-image"
+              />
+            </div>
+            <div class="home-title">
+              <span class="home-title-text"><span>GameMaster™ X570</span></span>
+              <span class="home-title-tagline">
+                <span>Keep it Simple, Stupid</span>
+              </span>
+            </div>
+            <div class="home-grid">
+              <div class="home-games">
+                <div class="home-games-header">
+                  <span class="home-games-header-text">
+                    <span>Exclusive Titles</span>
+                  </span>
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/7d0e3c57-30c4-4ce6-bc18-bc708d1d7af7?org_if_sml=1123"
+                    alt="Rectangle623"
+                    class="home-games-header-rect"
+                  />
+                </div>
+                <div class="home-games-hl">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/47f0f95a-8596-49f2-a69a-bd9f33251115?org_if_sml=1123"
+                    alt="Rectangle724"
+                    class="home-games-hl-rect"
+                  />
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/2487b640-ed61-4a1b-9b3f-e9bb12aae5e4?org_if_sml=155703"
+                    alt="halflife31210"
+                    class="home-games-hl-image"
+                  />
+                </div>
+                <div class="home-games-gta">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/3a72aa5f-d41b-42c3-a02f-95536cbaafd2?org_if_sml=1123"
+                    alt="Rectangle826"
+                    class="home-games-gta-rect"
+                  />
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/7b40b687-b9dd-4ef7-9d25-ee47fb0e7603?org_if_sml=192889"
+                    alt="gta61211"
+                    class="home-games-gta-image"
+                  />
+                </div>
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/a8358814-3eb0-4aef-8724-d71dfbaf80be?org_if_sml=1123"
+                  alt="Rectangle3116"
+                  class="home-games-rect"
+                />
+              </div>
+              <div class="home-specs">
+                <div class="home-specs-header">
+                  <span class="home-specs-header-text"><span>Specs</span></span>
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/81e2c3dd-3328-4221-af2c-79bf4f61e448?org_if_sml=1123"
+                    alt="Rectangle12219"
+                    class="home-spects-header-rect"
+                  />
+                </div>
+                <div class="home-specs-tagline">
+                  <span class="home-specs-tagline-text">
+                    <span>
+                      With the latest AMD-based hardware, the GameMaster™ X570
+                      packs a serious punch.
+                    </span>
+                  </span>
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/5547a03d-ea49-43bc-b377-dbe409dcd584?org_if_sml=1123"
+                    alt="Rectangle13220"
+                    class="home-specs-tagline-rect"
+                  />
+                </div>
+                <div class="home-specs-table">
+                  <span class="home-specs-table-text">
+                    <span class="home-text06">
+                      <span>CPU</span>
+                      <br />
+                      <span></span>
+                    </span>
+                    <span class="home-text10">
+                      <span>AMD Ryzen™ 5 5500</span>
+                      <br />
+                      <span>6C/12T @ 3.6GHz</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span></span>
+                    </span>
+                    <span class="home-text18">
+                      <span>GPU</span>
+                      <br />
+                      <span></span>
+                    </span>
+                    <span class="home-text22">
+                      <span>AMD Radeon™ RX 6600</span>
+                      <br />
+                      <span>8GB GDDR6</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span></span>
+                    </span>
+                    <span class="home-text30">
+                      <span>RAM</span>
+                      <br />
+                      <span></span>
+                    </span>
+                    <span class="home-text34">
+                      <span>16GB (2 x 8GB) DDR4 3600MHz</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span></span>
+                    </span>
+                    <span class="home-text40">
+                      <span>SSD</span>
+                      <br />
+                      <span></span>
+                    </span>
+                    <span>
+                      <!--home-text34 can just be used for all. clean up-->
+                      <span class="home-text34">512GB M.3 PCIe4 NVME</span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </span>
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/ff9423bc-b2cd-441f-9af8-cfb892b9635a?org_if_sml=1123"
+                    alt="Rectangle14221"
+                    class="home-specs-table-rect"
+                  />
+                </div>
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/fb31cbcd-6866-4ac7-b03e-d5717e95c571?org_if_sml=1123"
+                  alt="Rectangle5118"
+                  class="home-specs-rect"
+                />
+              </div>
+              <div class="home-description">
+                <span class="home-description-text">
+                  <span>
+                    The GameMaster™ X570 combines next-gen hardware with a
+                    simple, retro design.
+                  </span>
+                </span>
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/4cd73ada-a95a-4dd5-984b-8c76b40c1394?org_if_sml=1123"
+                  alt="Rectangle2115"
+                  class="home-description-rect"
+                />
+              </div>
+              <div class="home-console">
+                <div class="home-console-back">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/ab2f272f-349c-4593-b756-2680cb33bec2?org_if_sml=1123"
+                    alt="Rectangle9212"
+                    class="home-console-back-rect"
+                  />
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/eb87b8c6-8224-44bd-9bca-6c6df9a59ee6?org_if_sml=179079"
+                    alt="gamecubeback1216"
+                    class="home-console-back-image"
+                  />
+                </div>
+                <div class="home-console-front">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/872ede84-461e-48a5-8d07-84b43d35e7b6?org_if_sml=1123"
+                    alt="Rectangle11214"
+                    class="home-console-front-rect"
+                  />
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/5ce1c4c1-0da6-4971-8b9a-c55e4e532144?org_if_sml=1171726"
+                    alt="gamecubefrontPhotoRoom1215"
+                    class="home-console-front-image"
+                  />
+                </div>
+                <div class="home-console-controller">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/d9498ba6-b411-4d1d-957f-5d3c3dca1f00?org_if_sml=1123"
+                    alt="Rectangle10213"
+                    class="home-console-controller-rect"
+                  />
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/9f56094f-d18d-4dcc-af52-bf5e01ba3a08?org_if_sml=170904"
+                    alt="gamecubecontroller1218"
+                    class="home-console-controller-image"
+                  />
+                </div>
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/fe7afb5e-b522-4aa3-a73c-4092d615fdab/749d68b5-bb31-4728-92f5-eafd1355696f?org_if_sml=1123"
+                  alt="Rectangle4117"
+                  class="home-console-rect"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </body>
+</html>

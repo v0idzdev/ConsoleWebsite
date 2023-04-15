@@ -1,12 +1,7 @@
 import os
 from flask import Flask, render_template, send_from_directory
-from flask_assets import Environment, Bundle
 
 app = Flask(__name__)
-assets = Environment(app)
-assets.url = app.static_url_path
-scss = Bundle('main.scss', filters='pyscss', output='all.css')
-assets.register('scss_all', scss)
 
 
 @app.route('/')
