@@ -12,6 +12,9 @@ Clone the repository
 ```bash
 git clone https://github.com/v0idzdev/ConsoleWebsite.git
 cd ConsoleWebsite
+Switch to the `new` branch
+```bash
+git checkout new
 ```
 Install requirements
 ```bash
